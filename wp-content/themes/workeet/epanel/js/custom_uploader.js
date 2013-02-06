@@ -11,8 +11,8 @@ jQuery(document).ready(function() {
 			jQuery('#TB_iframeContent').contents().find('.savesend .button').val('Use for ' + et_upload_field_name); 
 		}, 2000 );
 		
-		post_id = jQuery('#post_ID').val();
-		tb_show('', 'media-upload.php?post_id='+post_id+'&amp;type=image&amp;TB_iframe=true');
+		post_id = jQuery('#post_id').val();
+		tb_show('', 'media-upload.php?post_id=0&type=image&TB_iframe=1');
 		return false;
 	});
 	
