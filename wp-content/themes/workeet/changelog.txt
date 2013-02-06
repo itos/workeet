@@ -1,0 +1,58 @@
+version 1.9 ( Updated: 4-04-2012 )
+- Improved shortcodes functionality ( now you can use ET Tabs inside of the ET Learn more block )
+	* epanel/shortcodes/js/et_shortcodes_frontend.js
+	* epanel/shortcodes/shortcodes.css
+
+version 1.8 ( Updated: 3-13-2012 )
+- Added width and height attributes to images, small images stretch to fill the space now
+	* custom_functions.php
+- Deleted Support Docs, replaced it with the link to site documentation
+	* epanel/options_leanbiz.php
+	* includes/functions/installation.php
+- Improved ePanel page select box functionality and compatibility with qTranslate and WPML plugins
+	* epanel/core_functions.php
+	* epanel/options_leanbiz.php
+- Shortcodes improvements
+	* epanel/shortcodes/shortcodes.css
+	* epanel/shortcodes/js/et_shortcodes_frontend.js
+- Improved et_videolink compatibility with iPhone and iPad, you can use videos from these sites now: http://goo.gl/U7Iuj
+	* style.css
+	* page-template-portfolio.php
+	* epanel/page_templates/js/fancybox/jquery.fancybox--1.3.4.pack.js
+
+version 1.7 ( Updated: 1-25-2012 )
+- improved thumbnail resizing system ( epanel/custom_functions.php )
+- fixed simple slider shortcode "slide" effect issue ( epanel/shortcodes/js/et_shortcodes_frontend.js )
+- increased superfish menu delay ( js/custom.js )
+- fixed slider iframe video z-index issue ( js/custom.js )
+
+version 1.6
+- Updated ePanel with security and performance improvements
+    * /epanel
+    * functions.php
+    * style.css
+
+version 1.5
+- Fixed slider bug
+    * js/custom.js
+
+version 1.4
+- Updated thumbnail function to clear unused images
+- Updated templates with improved coding structure
+- Fixed sample data images bug
+- Fixed featured slider bugs caused by new jQuery version
+
+version 1.3
+- Fixed text dupication on posts
+    * loop-single.php
+
+version 1.2
+- Updated thumbnail function to better detect root folder. Thumbnails
+  must now be hosted within the same root folder as WordPress. 
+    * epanel/custom_functions.php
+
+version 1.1
+- Removed timthumb due to known vulnerabilities
+    * deleted timthumb.php, cache and temp folders
+    * modified 'epanel/custom_functions.php', 'epanel/options_themename.php'
+

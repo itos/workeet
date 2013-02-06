@@ -1,0 +1,17 @@
+body { background-color: #f8f1fc; }
+	a#left-arrow { background:url(images/purple/left-arrow.png) no-repeat; }	
+	a#right-arrow { background:url(images/purple/right-arrow.png) no-repeat; }
+		h2.featured-title a { color: #c55a88; }
+		h2.title a, h1.title { color: #c55a88; }
+			h3#reply-title, h3#comments { color: #c55a88; }
+				#footer { color:#a98d9a; }
+					#footer h4.widget-title { color:#c55a88; }
+						.footer-widget a { color: #a98d9a; }
+							.footer-widget a:hover { color: #967d88; }
+						p#copyright { color:#a98d9a; }	
+							p#copyright a { color:#a98d9a; }	
+				.widget h3.title { color:#c55a88; }
+					.widget ul li a { color:#a98d9a; }
+						.widget ul li a:hover { color: #967d88; }
+					.wp-pagenavi span.current, .wp-pagenavi span.extend, .wp-pagenavi a:active, .wp-pagenavi a:hover { color:#c55a88 !important; }
+							span.fn, span.fn a { color: #c55a88; }
